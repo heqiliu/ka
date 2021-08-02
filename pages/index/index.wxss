@@ -1,0 +1,113 @@
+/**index.wxss**/
+page{
+  background:#eee;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+/***swiper**/
+swiper swiper-item image{
+  width:100%;
+ 
+}
+/**二维码**/
+.qr-content {
+  background-color: #FFFFFF;
+  margin:0 auto;
+  margin-top: 20rpx;
+  width: 680rpx;
+  height: 680rpx;
+  border-radius: 20rpx;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+/**中间一行**/
+.middle-row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  width:750rpx;
+  height:160rpx;
+  line-height:120rpx;
+  border:1px solid red;
+  margin:20rpx 0;
+  background:#fff;
+}
+.middle-row .leaf,.phone,.kefu{
+  width:100rpx;
+  height:100rpx;
+  line-height:100rpx;
+  vertical-align:middle;
+}
+.leaf{
+ 
+}
+/**中间文字**/
+.text-view{
+  width:35%;
+  height:160rpx;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border:1px solid blue;
+}
+.text-view .text-view-bottom{
+  font-size:20rpx;
+  opacity:0.4;
+}
+/**电话和微信**/
+.icon-view{
+  border:1px solid red;
+  width:30%;
+  display:flex;
+  align-items:center;
+}
+/**客服图标定位**/
+.contact-view{
+  width:100%;
+  border:1px solid black;
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:url('/static/images/wechar.png') 100rpx 100rpx no-repeat;
+}
+/***客服按钮**/
+.contact-view .kefu{
+  position:absolute;
+  left:10rpx;
+  top:0;
+}
+/**教师简介**/
+.teacher-scroll-view{
+  box-sizing:border-box;
+  width:750rpx;
+  height:60vh;
+  border:2px solid yellow;
+}
+.teacher-title{
+  text-align:center;
+  color:red;
+}
+.teacher-row{
+  box-sizing:border-box;
+  width:100vw;
+  height:160rpx;
+  border:1px solid blue;
+}

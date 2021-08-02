@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view class="box">
+  <swiper indicator-dots="true" autoplay indicator-color="#1296db" indicator-active-color="red" circular>
+    <swiper-item >
+      <image mode="aspectFill" src="/static/images/swiper1.png" alt="" />
+    </swiper-item>
+    <swiper-item >
+      <image mode="aspectFill" src="/static/images/swiper2.png" alt="" />
+    </swiper-item>
+    <swiper-item >
+      <image mode="aspectFill" src="/static/images/swiper3.png" alt="" />
+    </swiper-item>
+    <swiper-item >
+      <image mode="aspectFill" src="/static/images/swiper4.png" alt="" />
+    </swiper-item>
+  </swiper>
+  <!-- <view class="qr-content">
+      <view class="title">
+        <text class="title-text">{{title}}</text>
+      </view>
+      <view class="qrcode">
+        <image src="/static/images/qr.png" mode=""></image>
+      </view>
+     
+    </view> -->
+  <view class="middle-row">
+      <image class="leaf" src="/static/images/leaf.png"></image>
+      <view class="text-view">
+        <view class="text-view-top">欢迎新同学~</view>
+        <view class="text-view-bottom">欢迎点击右侧按钮咨询老师</view>
+      </view>
+      <view class="icon-view">
+        <image class="phone" src="/static/images/phone.png" catchtap="phone"></image>
+        <view class="contact-view">
+          <button class="kefu-button" open-type="contact"  size="mini">客服</button>
+          <!-- <image class="kefu" src="/static/images/wechar.png"></image> -->
+        </view>
+        
+      </view>
+  </view>
+ <!---教师简介--->
+ <scroll-view class="teacher-scroll-view">
+    <view class="teacher-title">~/教师简介/~</view>
+    <view class="teacher-row">
+      <image src="#"></image>
+      <view class="">
+        <view>姓名</view>
+        <view>性别</view>
+        <view>编号</view>
+      </view>
+    </view>
+ </scroll-view>
+  
+</view>
